@@ -1,0 +1,12 @@
+KoaComponent:
+  Component: koa
+  Provider: alibaba
+  Extends:
+    deploy:
+      - Hook: npm install --production
+        Path: ./src
+        Pre: true
+  Properties:
+    Region: 'cn-hangzhou'
+    CodeUri: './src'
+    App: index.js
