@@ -1,5 +1,5 @@
 KoaComponent:
-  Component: koa
+  Component: koa-alibaba-component
   Provider: alibaba
   Extends:
     deploy:
