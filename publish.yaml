@@ -2,7 +2,7 @@ Type: Application
 Name: koa
 Version: 0.0.5
 Provider:
-  - Alibaba
+  - 阿里云
 Description: 快速部署一个Koa系统到阿里云函数计算
 HomePage: https://serverless.aliyun.com/
 Tags:
